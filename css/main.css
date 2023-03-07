@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    background-color: bisque;
+} */
+
+.menu {
+    list-style-type: none;
+    background-color: ivory;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+.menu li{
+    background-color: ivory;
+    padding-left: 10px ;
+     
+}
+ .menu li a{
+    text-decoration: none;
+    
+ }
+.logo{
+    width: 10%;
+}
+.partearriba{
+
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+.fotoperfil{
+    width: 300px;
+    
+}
+main .cuerpopagina{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Abhaya Libre';font-size: 22px;
+
+}
+input{
+    display: inline-block;
+    
+}
+
+.section-recetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foto_principal{
+    width: 400px;
+    /* width: 90%; */
+    padding: 5px;
+    align-self: center;
+}
+.imagen_de_Larisa{
+    width: 300px;
+}
+main h1{
+    margin: 30px;
+    font-style: italic;
+    color: darksalmon;
+    font-family: 'Abhaya Libre';font-size: 22px;
+    
+}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+.anim-typewriter{
+    animation: typewriter 6s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 23em;}
+  }
+  
+main h2{
+    margin: 20px;
+    font-style: italic;
+    align-items: center; 
+    font-family: 'Abhaya Libre';font-size: 22px;
+    color: darksalmon; 
+}
+footer {
+    background-color: blanchedalmond;
+    justify-content:center;
+    display:flex;
+    height: 15px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+}
+.Presentacion {
+    width: 200px;
+    margin-top: 15px;
+    font-family: 'Abhaya Libre';font-size: 22px;
+}
+
+.Recetas {
+  width: 200px;
+  margin-top: 15px;
+  font-family: 'Abhaya Libre';font-size: 22px;
+}
+
+body{
+    background: ivory;
+  }
+  .box{
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+  }
+  
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipes {
+  width: 80%;
+  margin: 20px 0;
+}
+
+.recipes h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe{
+  width:30%;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align:center;
+  display: flex;
+  
+}
+.contact-info {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    justify-items: center;
+    color: darkslateblue;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .contact-info li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+    justify-content: center;
+  }
+  
+  .contact-info a {
+    color: #333;
+    text-decoration: none;
+  }
+  .datos{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+  
+    }
+
+  /* @media screen (max-width: 780px) {
+    .recipe{
+     flex-direction: row;
+    }
+    .estiloresponsive{
+        float: right;
+        padding-left: 15px;  */
+    
+
+@media screen and (max-width: 768px) {
+    .recipe-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .recipe {
+      width: 100%;
+    }
+
+    .cuerpopagina {
+      display: flex;
+      justify-content: center;
+    }
+
+    .foto_principal {
+      width: 60%;
+    }
+
+  }
+
+ 
+ @media screen and (max-width: 375px){
+    .partearriba {
+        display: flex;
+      }
+    
+      .partearriba {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .menu {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+      }
+    
+      .logo {
+        width: 15%;
+      }
+
+ }
