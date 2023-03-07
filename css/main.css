@@ -16,7 +16,7 @@
     flex-direction: row;
 }
 .menu li{
-    background-color: ivory;
+    background-color:ivory;
     padding-left: 10px ;
      
 }
@@ -45,6 +45,7 @@ main .cuerpopagina{
     align-items: center;
     justify-content: space-around;
     font-family: 'Abhaya Libre';font-size: 22px;
+    background-color: bisque;
 
 }
 input{
