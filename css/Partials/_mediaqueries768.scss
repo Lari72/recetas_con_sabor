@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+	.recipe-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.recipe {
+		width: 100%;
+	}
+	.cuerpopagina {
+		display: flex;
+		justify-content: center;
+	}
+	.foto_principal {
+		width: 60%;
+	}
+}

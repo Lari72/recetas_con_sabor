@@ -1,0 +1,74 @@
+
+.partearriba {
+    display: flex;
+    justify-content: space-between;
+  
+
+    .logo {
+        width: 10%;
+
+    }
+
+    .menu {
+        list-style-type: none;
+        background-color: ivory;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+
+        li {
+            background-color: ivory;
+            padding-left: 10px;
+
+            a {
+                text-decoration: none;
+            }
+
+        }
+
+    }
+    
+}
+.cuerpopagina{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Abhaya Libre';font-size: 22px;
+    background-color: ivory;
+
+    .section-recetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .foto_principal{
+          width: 400px;
+          padding: 5px;
+          align-self: center;
+        }
+        }
+        .imagen_de_Larisa {
+            width: 300px;
+          }
+        
+          h1 {
+            margin: 30px;
+            font-style: italic;
+            color: darksalmon;
+            font-family: 'Abhaya Libre';
+            font-size: 20px;
+          }
+        
+          h2 {
+            margin: 20px;
+            font-style: italic;
+            align-items: center;
+            font-family: 'Abhaya Libre';
+            font-size: 22px;
+            color: darksalmon;
+          }
+          
+        }
+
