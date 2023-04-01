@@ -206,6 +206,14 @@ main {
     justify-content: center;
   
     }
+    .search {
+      width: 100%;
+      min-height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
 
   /* @media screen (max-width: 780px) {
     .recipe{
@@ -259,4 +267,4 @@ main {
         width: 15%;
       }
 
-      }
+}

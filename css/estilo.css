@@ -98,25 +98,22 @@ main .recipes .recipe-container .recipe .card .card-body .btn {
   font-size: 0.8rem;
 }
 
-.partearriba {
-  display: flex;
-  justify-content: space-between;
-}
-.partearriba .logo {
+.logo {
   width: 10%;
 }
-.partearriba .menu {
+
+.menu {
   list-style-type: none;
   background-color: ivory;
   padding: 10px;
   display: flex;
   flex-direction: row;
 }
-.partearriba .menu li {
+.menu li {
   background-color: ivory;
   padding-left: 10px;
 }
-.partearriba .menu li a {
+.menu li a {
   text-decoration: none;
 }
 
@@ -200,6 +197,18 @@ main .recipes .recipe-container .recipe .card .card-body .btn {
 }
 .datos main .col a:hover {
   text-decoration: underline;
+}
+
+.search {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Icon buscar.jpg {
+  width: 10%;
 }
 
 contact-info {

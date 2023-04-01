@@ -32,9 +32,23 @@
             
             &:hover {
               text-decoration: underline;
+              }
             }
           }
         }
       }
-    }
+    .search {
+      width: 100%;
+      min-height:100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+      .Icon buscar.jpg {
+        width:10%
+      }
+
+
+      
+      
     
