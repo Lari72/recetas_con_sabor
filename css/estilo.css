@@ -19,12 +19,59 @@ footer {
   margin-top: 50px;
 }
 
+.footer-pagina {
+  background-color: blanchedalmond;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-pagina .footer-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-pagina .footer-redes .items-footer {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-pagina .footer-redes .items-footer .items_lista-footer {
+  margin: 0 10px;
+}
+.footer-pagina .footer-redes .items-footer .items_lista-footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-pagina .footer-redes .items-footer .items_lista-footer a .icon-footer {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.footer-pagina .footer-redes .items-footer .items_lista-footer a.enlace-footer1 .icon-footer {
+  filter: grayscale(100%);
+}
+.footer-pagina .footer-redes .items-footer .items_lista-footer a.enlace-footer2 .icon-footer {
+  filter: sepia(100%);
+}
+.footer-pagina .footer-redes .items-footer .items_lista-footer a.enlace-footer3 .icon-footer {
+  filter: invert(100%);
+}
+.footer-pagina .datos-footer {
+  font-size: 12px;
+  color: #666;
+}
+.footer-pagina .datos-footer p {
+  margin: 0;
+}
+
 .Presentacion {
   width: 200px;
   margin-top: 15px;
   font-family: "Abhaya Libre";
-  font-size: 22px;
-  background-color: ivory;
+  font-size: 32px;
   text-align: center;
   @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 }
@@ -98,6 +145,14 @@ main .recipes .recipe-container .recipe .card .card-body .btn {
   font-size: 0.8rem;
 }
 
+body {
+  background-image: url(/images/Imagen\ fondo\ principal.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .logo {
   width: 10%;
 }
@@ -125,29 +180,32 @@ main .recipes .recipe-container .recipe .card .card-body .btn {
   justify-content: space-around;
   font-family: "Abhaya Libre";
   font-size: 22px;
-  background-color: ivory;
 }
-.cuerpopagina .section-recetas {
+
+.section-recetas {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.cuerpopagina .section-recetas .foto_principal {
+.section-recetas .foto_principal {
   width: 400px;
   padding: 5px;
   align-self: center;
 }
-.cuerpopagina .imagen_de_Larisa {
+
+.imagen_de_Larisa {
   width: 300px;
 }
-.cuerpopagina h1 {
+
+h1 {
   margin: 30px;
   font-style: italic;
-  color: darksalmon;
+  color: #333333;
   font-family: "Abhaya Libre";
   font-size: 20px;
 }
-.cuerpopagina h2 {
+
+h2 {
   margin: 20px;
   font-style: italic;
   align-items: center;
@@ -199,16 +257,54 @@ main .recipes .recipe-container .recipe .card .card-body .btn {
   text-decoration: underline;
 }
 
-.search {
+.container-buscar {
   width: 100%;
   min-height: 100vh;
+  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Icon buscar.jpg {
-  width: 10%;
+.search-bar {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+
+::-moz-placeholder {
+  color: #cac7ff;
+}
+
+::placeholder {
+  color: #cac7ff;
+}
+
+.search-bar button img {
+  width: 25px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #58629b;
+  cursor: pointer;
 }
 
 contact-info {

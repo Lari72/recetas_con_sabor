@@ -37,16 +37,54 @@
           }
         }
       }
-    .search {
+      .container-buscar {
       width: 100%;
       min-height:100vh;
       display: flex;
       align-items: center;
       justify-content: center;
+      
       }
-      .Icon buscar.jpg {
-        width:10%
+    
+      .search-bar {
+        width: 100%;
+        max-width: 700px;
+        background: rgba(1, 24, 24, 0.021);
+        display: flex;
+        align-items:center;
+        border-radius: 60px;
+        padding:10px 20px;
+
       }
+      .search-bar input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 20px;
+        color:black;
+
+        }
+
+        ::placeholder {
+          color:#111112;
+
+        }
+        .search-bar button img{
+          width: 25px;
+        }
+        .search-bar button{
+          border:0;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          background: #58629b;
+          cursor: pointer;
+        }
+
+      
+      
 
 
       

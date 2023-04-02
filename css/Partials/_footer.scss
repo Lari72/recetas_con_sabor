@@ -1,9 +1,134 @@
-footer {
+// footer {
+//     background-color: blanchedalmond;
+//     justify-content: center;
+//     display: flex;
+//     height: 15px;
+//     width: 100%;
+//     bottom: 0;
+//     margin-top: 50px;
+//   }
+  .footer-pagina {
     background-color: blanchedalmond;
-    justify-content: center;
+    padding: 20px;
     display: flex;
-    height: 15px;
-    width: 100%;
-    bottom: 0;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  
+    .footer-redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .items-footer {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+  
+        .items_lista-footer {
+          margin: 0 10px;
+  
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            .icon-footer {
+              width: 30px;
+              height: 30px;
+              margin-right: 5px;
+            }
+  
+            &.enlace-footer1 {
+              .icon-footer {
+                filter: grayscale(100%);
+              }
+            }
+  
+            &.enlace-footer2 {
+              .icon-footer {
+                filter: sepia(100%);
+              }
+            }
+  
+            &.enlace-footer3 {
+              .icon-footer {
+                filter: invert(100%);
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .datos-footer {
+      font-size: 12px;
+      color: #666;
+  
+      p {
+        margin: 0;
+      }
+    }
   }
+
+
+
+
+
+
+
+
+
+
+
+  // .footer-pagina {
+  //   width: 100%;
+  //   color: white;
+  //   background: $background-footer;
+  //   text-align: center;
+  //   padding: 10px;
+  //   margin-top: 1rem;
+  //   bottom: 0;
+  
+  //   @include container-flex (flex, center, row);
+  
+  //   .items-footer {
+  //     display: flex;
+  //     flex-direction: row;
+  //     flex-wrap: nowrap;
+  //     justify-content: space-around;
+  //     text-decoration: none;
+  //     padding: 0;
+  //     list-style: none;
+  
+  //     .items_lista-footer {
+  //       padding: 0.5rem;
+  
+  //       .icon-footer {
+  //         width: 3rem;
+  
+  //         &:hover {
+  //           filter: drop-shadow(3px 3px 3px rgba(247, 244, 244, 0.7));
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  
+  // .datos-footer {
+  //   @include container-flex(flex, space-around, row);
+  //   width: 100%;
+  //   align-self: center;
+  
+  
+  //   h1 {
+  //     font-size: 2rem;
+  //     font-family: $font-title;
+  //   }
+  
+  //   .footer-copyright {
+  //     color: rgba(255, 255, 255, 0.525);
+  //     margin: 0.25rem;
+  //     font-size: 0.6rem;
+  //   }
+  // }
