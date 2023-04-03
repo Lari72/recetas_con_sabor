@@ -25,6 +25,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 .footer-pagina .footer-redes {
   display: flex;
@@ -66,7 +67,42 @@ footer {
 .footer-pagina .datos-footer p {
   margin: 0;
 }
+/* .footer-pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
 
+.footer-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.items-footer {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items_lista-footer {
+  margin: 0 0.5rem;
+}
+
+.icon-footer {
+  height: 2rem;
+}
+
+.datos-footer {
+  text-align: center;
+  flex-basis: 100%;
+} */
 .Presentacion {
   width: 200px;
   margin-top: 15px;
