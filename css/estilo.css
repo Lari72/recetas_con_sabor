@@ -146,7 +146,7 @@ main .recipes .recipe-container .recipe .card .card-body .btn {
 }
 
 body {
-  background-image: url(/images/Imagen\ fondo\ principal.jpg);
+  background-image: url(../images/Imagen\ fondo\ principal.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
