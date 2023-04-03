@@ -38,7 +38,7 @@
         }
       }
       .container-buscar {
-      width: 100%;
+      width: 50%;
       min-height:100vh;
       display: flex;
       align-items: center;
@@ -48,7 +48,7 @@
     
       .search-bar {
         width: 100%;
-        max-width: 700px;
+        max-width: 500px;
         background: rgba(1, 24, 24, 0.021);
         display: flex;
         align-items:center;
@@ -57,7 +57,7 @@
 
       }
       .search-bar input {
-        background: transparent;
+        background: salmon;
         flex: 1;
         border: 0;
         outline: none;
