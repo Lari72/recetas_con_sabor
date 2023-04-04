@@ -68,10 +68,13 @@ footer {
 }
 
 .Presentacion {
-  width: 100px;
-  margin-top: 15px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
   font-family: "Abhaya Libre";
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 }
@@ -99,10 +102,12 @@ main {
   align-items: center;
   padding: 2rem;
   font-family: Arial, sans-serif;
+  justify-content: center;
 }
 main h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  color: #58151c;
 }
 main .recipes {
   margin: 2rem 0;
@@ -110,6 +115,7 @@ main .recipes {
 main .recipes h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: #58151c;
 }
 main .recipes .recipe-container {
   display: flex;
@@ -220,7 +226,7 @@ h2 {
 }
 
 .carousel-caption p {
-  color: #800057;
+  color: #53043a;
   font-size: 20px;
 }
 
@@ -240,11 +246,13 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #58151c;
 }
 .datos main h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  color: #58151c;
 }
 .datos main .container {
   display: flex;
@@ -260,7 +268,7 @@ h2 {
   margin-bottom: 10px;
 }
 .datos main .col a {
-  color: #007bff;
+  color: #58151c;
   text-decoration: none;
 }
 .datos main .col a:hover {
