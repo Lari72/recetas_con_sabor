@@ -72,6 +72,12 @@ body{
             font-size: 20px;
             color: darksalmon;
           }
-          
-        
+          .carousel-caption-title {
+            font-size: 30px;
+            color:  grayscale($color: #1e0f0f);
+          }
+          .carousel-caption p {
+            color: #800057;
+            font-size: 20px;
 
+          }

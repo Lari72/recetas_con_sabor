@@ -39,7 +39,7 @@
       }
       .container-buscar {
       width: 100%;
-      min-height: 100vh;
+      min-height: 30vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -53,7 +53,7 @@
         display: flex;
         align-items:center;
         border-radius: 60px;
-        padding:10px 10px;
+        // padding:10px 10px;
         backdrop-filter: blur(4px) saturate(180%);
 
       }
@@ -62,7 +62,7 @@
         flex: 1;
         border: 0;
         outline: none;
-        padding: 24px 20px;
+        padding: 10px 20px;
         font-size: 20px;
         color:black;
 
