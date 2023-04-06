@@ -69,10 +69,7 @@ footer {
 
 .Presentacion {
   width: 200px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-top: 10px;
   font-family: "Abhaya Libre";
   font-size: 30px;
   text-align: center;
@@ -80,6 +77,7 @@ footer {
 }
 .Presentacion .anim-typewriter {
   animation: typewriter 3s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+  font-size: 20px;
 }
 @keyframes typewriter {
   from {
@@ -211,15 +209,6 @@ h1 {
   font-size: 20px;
 }
 
-h2 {
-  margin: 20px;
-  font-style: italic;
-  align-items: center;
-  font-family: "Abhaya Libre";
-  font-size: 20px;
-  color: darksalmon;
-}
-
 .carousel-caption-title {
   font-size: 30px;
   color: #171717;
@@ -228,6 +217,12 @@ h2 {
 .carousel-caption p {
   color: #53043a;
   font-size: 20px;
+}
+
+.style {
+  color: #58629b;
+  font-size: 1, 5rem;
+  font-weight: bold;
 }
 
 .button-style {
@@ -242,36 +237,39 @@ h2 {
   cursor: pointer;
 }
 
-.datos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #58151c;
-}
-.datos main h2 {
+main h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #58151c;
+  color: #58629b;
+  margin: 20px;
+  font-style: italic;
+  align-items: center;
+  font-family: "Abhaya Libre";
 }
-.datos main .container {
+
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
-.datos main .col {
-  flex-basis: 30%;
+
+.col {
+  flex-basis: 20%;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
-.datos main .col p {
+.col p {
   font-size: 20px;
   margin-bottom: 10px;
 }
-.datos main .col a {
+.col a {
   color: #58151c;
   text-decoration: none;
 }
-.datos main .col a:hover {
+.col a:hover {
   text-decoration: underline;
 }
 
@@ -325,6 +323,12 @@ h2 {
   cursor: pointer;
 }
 
+.style {
+  color: #58629b;
+  font-size: 1, 5rem;
+  font-weight: bold;
+}
+
 contact-info {
   text-align: center;
   justify-content: center;
@@ -355,6 +359,12 @@ contact-info i {
 contact-info a {
   color: darkslateblue;
   text-decoration: none;
+}
+
+.style {
+  color: #58629b;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

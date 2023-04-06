@@ -64,14 +64,14 @@ body{
             font-size: 20px;
           }
         
-          h2 {
-            margin: 20px;
-            font-style: italic;
-            align-items: center;
-            font-family: 'Abhaya Libre';
-            font-size: 20px;
-            color: darksalmon;
-          }
+          // h2 {
+          //   margin: 20px;
+          //   font-style:italic;
+          //   align-items: center;
+          //   font-family: 'Abhaya Libre';
+          //   font-size: 20px;
+        
+          // }
           .carousel-caption-title {
             font-size: 30px;
             color:  grayscale($color: #1e0f0f);
@@ -81,4 +81,11 @@ body{
             font-size: 20px;
 
           }
+          .style {
+          color: #58629b;
+          font-size: 1,5rem;
+          font-weight: bold;
+        }
+
+        
           
